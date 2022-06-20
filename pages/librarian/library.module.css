@@ -1,0 +1,14 @@
+.liStyle {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(18, 39, 39);
+    overflow-y: auto;
+}
+
+.eventImg{
+    transition: all 0.2s;
+}
+.eventImg:hover{
+    transform: scale(1.1);
+}

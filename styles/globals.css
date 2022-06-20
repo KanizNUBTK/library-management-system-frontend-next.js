@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+
+/* #001529 */
+
+
+.nav {
+    @apply bg-white w-0 md:w-64; 
+    
+}
+/* .bg-img{
+    @apply opacity-25;
+} */
+
+
+[layout="sidebarToggle"] {
+   visibility: hidden;
+}
+
+[layout="navBarToggle"] {
+  @apply md:left-0
+}
+
+[layout="mainToggle"] {
+  @apply md:ml-0
+}
+

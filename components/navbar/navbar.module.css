@@ -1,0 +1,14 @@
+.icon1 {
+  font-size: xx-large;
+}
+.icon1:hover {
+  cursor: pointer;
+}
+
+.btnSearch {
+  font-size: x-large;
+  border-top-right-radius: 10px;
+  display: inline-block;
+  margin-right: 4px;
+  color: rgb(8, 167, 8);
+}
